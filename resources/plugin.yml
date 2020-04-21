@@ -1,0 +1,15 @@
+name: asCMD
+main: com.whitehouse.ascmd.asCMD
+version: 2.1
+commands:
+  ascmd:
+    description: Main command for asCMD
+    usage: Type "/<command>" for help
+    aliases: [ascommand, armorstandcmd, armorstandcommand]
+permissions:
+  ascmd.admin:
+    description: Main permission for all subcommands
+    default: op
+  ascmd.update:
+    description: Permission to notify player on join about a new version
+    default: op

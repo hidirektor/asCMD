@@ -1,0 +1,5 @@
+format-version: '2'
+config:
+  msgToConsole: true
+  enableLeftClick: false
+  cooldownMs: 100
